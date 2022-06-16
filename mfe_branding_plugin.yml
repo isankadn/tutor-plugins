@@ -1,0 +1,13 @@
+name: mfe_branding_plugin
+version: 0.1.0
+patches:
+  mfe-env-development: |
+    LOGO_URL=https://import.cdn.thinkific.com/518698%2Fcustom_site_themes%2Fid%2FQGJHgecJSJBO0NcjVuMw_Session_White_NoTag.png
+    LOGO_TRADEMARK_URL=https://import.cdn.thinkific.com/518698%2Fcustom_site_themes%2Fid%2FQGJHgecJSJBO0NcjVuMw_Session_White_NoTag.png?width=384&dpr=1
+    LOGO_WHITE_URL=https://import.cdn.thinkific.com/518698%2Fcustom_site_themes%2Fid%2FQGJHgecJSJBO0NcjVuMw_Session_White_NoTag.png
+    FAVICON_URL=<URL>/favicon.ico
+  mfe-env-production: |
+    LOGO_URL=https://import.cdn.thinkific.com/518698%2Fcustom_site_themes%2Fid%2FQGJHgecJSJBO0NcjVuMw_Session_White_NoTag.png?width=384&dpr=1
+    LOGO_TRADEMARK_URL=https://import.cdn.thinkific.com/518698%2Fcustom_site_themes%2Fid%2FQGJHgecJSJBO0NcjVuMw_Session_White_NoTag.png?width=384&dpr=1
+    LOGO_WHITE_URL=https://import.cdn.thinkific.com/518698%2Fcustom_site_themes%2Fid%2FQGJHgecJSJBO0NcjVuMw_Session_White_NoTag.png?width=384&dpr=1
+    FAVICON_URL=<URL>/favicon.ico
